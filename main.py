@@ -3,8 +3,8 @@ from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from datetime import timedelta
 
-from . import crud, models, schemas, auth
-from .database import SessionLocal, engine
+from  import crud, models, schemas, auth
+from database import SessionLocal, engine
 
 # Lệnh này không còn cần thiết ở đây vì build.sh đã xử lý
 # models.Base.metadata.create_all(bind=engine)

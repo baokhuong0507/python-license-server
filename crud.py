@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 import uuid
 
-from . import models, schemas, auth
+from  import models, schemas, auth
 
 # --- User CRUD ---
 def get_user(db: Session, user_id: int):
