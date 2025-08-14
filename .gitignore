@@ -1,0 +1,10 @@
+# Bỏ qua môi trường ảo
+venv/
+
+# Bỏ qua các file cache của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua file CSDL SQLite (nếu dùng local) và file biến môi trường
+license_server.db
+.env
